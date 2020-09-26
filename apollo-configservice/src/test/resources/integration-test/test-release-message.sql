@@ -1,6 +1,6 @@
 INSERT INTO `releasemessage` (`Id`, `Message`)
 VALUES
-	(10, 'someAppId+default+application');
+    (10, 'someAppId+default+application');
 INSERT INTO `releasemessage` (`Id`, `Message`)
 VALUES
-	(20, 'somePublicAppId+default+somePublicNamespace');
+    (20, 'somePublicAppId+default+somePublicNamespace');
