@@ -57,9 +57,19 @@ import java.util.Map;
 @Configuration
 public class AuthConfiguration {
 
-  private static final String[] BY_PASS_URLS = {"/prometheus/**", "/metrics/**", "/openapi/**",
-      "/vendor/**", "/styles/**", "/scripts/**", "/views/**", "/img/**", "/i18n/**", "/prefix-path",
-      "/health"};
+  private static final String[] BY_PASS_URLS = {
+          "/prometheus/**",
+          "/metrics/**",
+          "/openapi/**",
+          "/vendor/**",
+          "/styles/**",
+          "/scripts/**",
+          "/views/**",
+          "/img/**",
+          "/i18n/**",
+          "/prefix-path",
+          "/health"
+  };
 
   /**
    * spring.profiles.active = ctrip

@@ -17,6 +17,8 @@ public class DefaultUserInfoHolder implements UserInfoHolder {
   public UserInfo getUser() {
     UserInfo userInfo = new UserInfo();
     userInfo.setUserId("apollo");
+    userInfo.setEmail("apollo_xl_local_test@test.com");
+    userInfo.setName("谢凌本地测试用户姓名");
     return userInfo;
   }
 }
